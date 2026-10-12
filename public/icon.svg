@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E67E22"/>
+      <stop offset="100%" stop-color="#D35400"/>
+    </linearGradient>
+    <linearGradient id="egg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F5E6D3"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEEBC8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FEEBC8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="270" r="180" fill="url(#glow)"/>
+  
+  <!-- Egg shape -->
+  <path d="M 256 100 C 180 100 130 190 130 290 C 130 380 186 420 256 420 C 326 420 382 380 382 290 C 382 190 332 100 256 100 Z" fill="url(#egg)" stroke="#C88242" stroke-width="6"/>
+
+  <!-- Crack / Hatch line with chick eye peek -->
+  <path d="M 170 270 L 210 290 L 256 265 L 300 295 L 342 270" fill="none" stroke="#D35400" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Cute chick eyes & beak peeking from crack -->
+  <circle cx="225" cy="245" r="9" fill="#2C2523"/>
+  <circle cx="287" cy="245" r="9" fill="#2C2523"/>
+  <polygon points="256,252 245,264 267,264" fill="#E67E22"/>
+  
+  <!-- Warmth / Temperature wave lines -->
+  <path d="M 180 80 Q 200 65 220 80 T 260 80" fill="none" stroke="#FBD38D" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 270 70 Q 290 55 310 70 T 350 70" fill="none" stroke="#FBD38D" stroke-width="5" stroke-linecap="round"/>
+</svg>
